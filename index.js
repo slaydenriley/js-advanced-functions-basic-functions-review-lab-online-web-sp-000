@@ -5,5 +5,3 @@ function saturdayFun(activity = "roller-skate") {
 function mondayWork(work = "go to the office") {
   return `This Monday, I will ${work}.`;
 }
-
-

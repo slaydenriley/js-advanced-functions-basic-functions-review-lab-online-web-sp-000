@@ -7,5 +7,7 @@ function mondayWork(work = "go to the office") {
 }
 
 function wrapAdjective() {
-  
+  return function(param = "special", flair = "*") {
+    return `You are ${param}`
+  }
 }
